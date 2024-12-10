@@ -10,14 +10,19 @@ namespace prac_11
     {
         static void Main(string[] args)
         {
-            //int[] numbers = { 1, 2, 3, 4, 5 };
-            //int sum = 0; 
-            //foreach (int number in numbers)
-            //{
-               //sum += number;
-            //}
-            //Console.WriteLine("Сумма всех элементов массива: " + sum);
-            //Console.ReadLine();
+            
+            int[] num = { 1, 2, 3, 4, 5 };
+            int mult = 3;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+              num[i] *= mult; 
+            }
+            Console.WriteLine("Массив после умножения на " + mult + ":");
+            foreach (int el in num)
+            {
+              Console.WriteLine(num);
+            }
+            Console.ReadLine();
         }
     }
 }
