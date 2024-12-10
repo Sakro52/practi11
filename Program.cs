@@ -10,16 +10,14 @@ namespace prac_11
     {
         static void Main(string[] args)
         {
-            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };     
-            Console.WriteLine("Нечетные числа:");
-            foreach (int number in numbers)
-            {
-            if (number % 2 != 0)
-            { 
-            Console.WriteLine(number);
-            }
-            }
-            Console.ReadLine();
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+            //int sum = 0; 
+            //foreach (int number in numbers)
+            //{
+               //sum += number;
+            //}
+            //Console.WriteLine("Сумма всех элементов массива: " + sum);
+            //Console.ReadLine();
         }
     }
 }
