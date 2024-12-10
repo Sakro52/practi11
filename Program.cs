@@ -9,16 +9,15 @@ namespace prac_11
     internal class Program
     {
         static void Main(string[] args)
-        { 
-   
-
-            //Задача 3.Найти максимальное и минимальное значение в массиве.
+        {
+            //Задача 4.Сортировка массива по возрастанию.
             //int[] omas = { -1, 2, -3, 4, -5 };
-            //int max = omas.Max();
-            //int min = omas.Min();
-            //Console.WriteLine($"min = {min}, max = {max}");
+            //Array.Sort(omas);
+            //foreach (int i in omas)
+            //{
+            //    Console.WriteLine(i);
+            //}
             //Console.ReadLine();
-
         }
     }
 }
