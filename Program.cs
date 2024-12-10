@@ -10,9 +10,9 @@ namespace prac_11
     {
         static void Main(string[] args)
         {
-            //Задача 4.Сортировка массива по возрастанию.
+            //Задача 5.Реверс массива.
             //int[] omas = { -1, 2, -3, 4, -5 };
-            //Array.Sort(omas);
+            //Array.Reverse(omas);
             //foreach (int i in omas)
             //{
             //    Console.WriteLine(i);
