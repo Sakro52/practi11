@@ -10,13 +10,16 @@ namespace prac_11
     {
         static void Main(string[] args)
         {
-            //Задача 6. Подсчет количества вхождений определенного числа в массив.
-            //int[] omas = { 1, 2, 3, 4, 5, 2, 2, 6, 7, 2 };
-            //Console.Write("Введите число для подсчета: ");
-            //int i = int.Parse(Console.ReadLine());
-            //int count = Array.FindAll(omas, x => x == i).Length;
-            //Console.WriteLine($"Число {i} встречается {count} раза в массиве.");
-            //Console.ReadLine();
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };     
+            Console.WriteLine("Нечетные числа:");
+            foreach (int number in numbers)
+            {
+            if (number % 2 != 0)
+            { 
+            Console.WriteLine(number);
+            }
+            }
+            Console.ReadLine();
         }
     }
 }
