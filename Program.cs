@@ -10,18 +10,26 @@ namespace prac_11
     {
         static void Main(string[] args)
         {
-            //Задача 12.Умножение всех элементов массива на определенное число.
-            //int[] num = { 1, 2, 3, 4, 5 };
-            //int mult = 3;
+            //int[] num = new int[15];
+            //Random random = new Random();
             //for (int i = 0; i < num.Length; i++)
             //{
-            //  num[i] *= mult; 
+            //    num[i] = random.Next(-50, 51);
             //}
-            //Console.WriteLine($"Массив после умножения на { mult } ");
-            //foreach (int el in num)
+            //int mult = 0;
+            //foreach (int number in num)
             //{
-            //  Console.WriteLine(el);
+            //    if (number % 3 == 0)
+            //    {
+            //        mult++;
+            //    }
             //}
+            //Console.WriteLine("Сгенерированный массив:");
+            //foreach (int number in num)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //Console.WriteLine($"Количество чисел, кратных 3:{mult}");
             //Console.ReadLine();
         }
     }
