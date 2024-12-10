@@ -9,20 +9,14 @@ namespace prac_11
     internal class Program
     {
         static void Main(string[] args)
-        {
-            //Задача 2.Обнулить заданный диапазон элементов в одномерном массиве.
-            //int[] omas = { 1, 2, 3, 4, 5 };
-            //Console.WriteLine("массив");
-            //for (int i = 0; i < omas.Length; i++)
-            //{
-            //    Console.WriteLine($"omas[{i}] = {omas[i]}");
-            //}
-            //Array.Clear(omas, 2, 2);
-            //Console.WriteLine("обнуленный массив");
-            //for (int i = 0; i < omas.Length; i++)
-            //{
-            //    Console.WriteLine($"omas[{i}] = {omas[i]}");
-            //}
+        { 
+   
+
+            //Задача 3.Найти максимальное и минимальное значение в массиве.
+            //int[] omas = { -1, 2, -3, 4, -5 };
+            //int max = omas.Max();
+            //int min = omas.Min();
+            //Console.WriteLine($"min = {min}, max = {max}");
             //Console.ReadLine();
 
         }
